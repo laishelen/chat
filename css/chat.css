@@ -1,0 +1,104 @@
+﻿#balloon-container{
+    position:fixed;
+    width:60px;
+    height:60px;
+    right:30px;
+    bottom:30px;
+    background-color:darkslategray;
+    color:white;
+    border-radius:30px;
+    box-shadow: 4px 4px 2px #888888;
+}
+
+#ballon-text{
+    margin:10px;
+}
+
+.thumbnailfoto{
+    width:30px;
+    height:30px;
+    border-radius:15px;
+}
+
+.left{
+    text-align:left;
+}
+
+.right{
+    text-align:right;
+}
+
+.texto{
+    vertical-align: top;
+    font-family:Arial;
+    font-size:10pt;
+}
+
+#chatbox{
+    width:300px;
+    height:500px;
+    background-color:darkslategray;
+    border-radius:5px;
+    padding:10px;
+    box-shadow: 4px 4px 2px #888888;
+    position:fixed;
+    right:30px;
+    bottom:30px;
+    display: none;
+}
+
+#header{
+    height:40px;
+    margin-bottom:10px;
+}
+
+#body{
+    background-color:white;
+    border-radius:5px;
+    height:380px;
+    padding:10px;
+}
+
+#footer{
+    height:50px;
+    margin-top:10px;
+}
+
+#close{
+    background-color: Transparent;
+    border: none;
+    cursor:pointer;
+}
+
+#closeicon{
+    color:white;
+    margin-top:10px;
+}
+
+#send{
+    background-color: Transparent;
+    border: none;
+    cursor:pointer;
+}
+
+#sendicon{
+    color:white;
+    margin-top:10px;
+    vertical-align:middle;
+}
+
+#users{
+    width:86%;
+    margin-bottom:10px;
+    vertical-align:middle;
+    border-radius:5px;
+}
+
+#message{
+    min-width:86%;
+    max-width:86%;
+    min-height:30px;
+    max-height:30px;
+    vertical-align:middle;
+    border-radius:5px;
+}
